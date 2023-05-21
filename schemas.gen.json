@@ -8166,12 +8166,16 @@
     "ZGVjby1zaXRlcy9vbWJyb3MvY29tcG9uZW50cy9oZWFkZXIvSGVhZGVyLnRzeA==@Props": {
       "type": "object",
       "properties": {
-        "alerts": {
+        "messages": {
           "type": "array",
           "items": {
             "type": "string"
           },
-          "title": "Alerts"
+          "title": "Messages"
+        },
+        "durationInSeconds": {
+          "type": "number",
+          "title": "Duration In Seconds"
         },
         "searchbar": {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9vbWJyb3MvY29tcG9uZW50cy9zZWFyY2gvU2VhcmNoYmFyLnRzeA==@EditableProps",
@@ -8193,7 +8197,8 @@
         }
       },
       "required": [
-        "alerts"
+        "messages",
+        "durationInSeconds"
       ],
       "title": "deco-sites/ombros/components/header/Header.tsx@Props"
     },
