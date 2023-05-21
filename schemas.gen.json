@@ -8467,29 +8467,36 @@
       "type": "object",
       "properties": {
         "date": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "format": "date-time",
           "title": "Date"
         },
         "text": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "title": "Text"
         },
         "labelButton": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "title": "Label Button"
         },
         "link": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "title": "Link"
         }
       },
-      "required": [
-        "date",
-        "text",
-        "labelButton",
-        "link"
-      ],
+      "required": [],
       "title": "deco-sites/ombros/sections/Timer/CampaignTimers.tsx@Props"
     },
     "ZGVjby1zaXRlcy9vbWJyb3MvY29tcG9uZW50cy91aS9XaGF0c0FwcC50c3g=@Props": {
